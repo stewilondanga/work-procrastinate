@@ -91,10 +91,11 @@ p {
   visibility: hidden;
 }
 
-/*          #switch:checked + label #clock, #switch:checked + label .procrastinate{
-            visibility: visible;
-          }
-      @media screen and (max-width: 800px), screen and (max-height: 600px)  {
+#switch:checked+label #clock, #switch:checked+label .procrastinate {
+  visibility: visible;
+}
+
+/*      @media screen and (max-width: 800px), screen and (max-height: 600px)  {
         label{
           position: absolute;
           top: 120px;
