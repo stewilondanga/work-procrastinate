@@ -101,10 +101,11 @@ p {
     top: 120px;
   }
 
-  /*        .container{
-          padding: 30px;
-        }
-        .center{
+  .container {
+    padding: 30px;
+  }
+
+  /*        .center{
           margin: 0 auto;
           width: 100px;
           height: 100px;
