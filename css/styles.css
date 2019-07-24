@@ -95,13 +95,13 @@ p {
   visibility: visible;
 }
 
-/*      @media screen and (max-width: 800px), screen and (max-height: 600px)  {
-        label{
-          position: absolute;
-          top: 120px;
-        }
+@media screen and (max-width: 800px), screen and (max-height: 600px) {
+  label {
+    position: absolute;
+    top: 120px;
+  }
 
-        .container{
+  /*        .container{
           padding: 30px;
         }
         .center{
