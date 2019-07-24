@@ -42,14 +42,15 @@ label:after {
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .2), 0 2px 4px rgba(0, 0, 0, .2);
 }
 
-/*#job{
+#job {
   color: #0ff9B6;
   font-size: 5em;
   position: relative;
   bottom: 100px;
   left: -10px;
- }
-#clock{
+}
+
+/*#clock{
      color: #ff79B6;
       font-size: 5em;
       position: relative;
