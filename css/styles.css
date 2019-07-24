@@ -1,4 +1,11 @@
 body {
+  background: #efefef;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -20,6 +27,89 @@ body {
 .my_social a img {
   height: 1.5em;
 }
+
+label{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #0ff9B6;
+  border-radius: 15px;
+  box-shadow: inset 0 0 5px 1px rgba(0,0,0,.2);
+  bottom: 500px;
+  cursor: pointer;
+ }
+ label:after{
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.2), 0 2px 4px rgba(0,0,0,.2);
+}
+#job{
+  color: #0ff9B6;
+  font-size: 5em;
+  position: relative;
+  bottom: 100px;
+  left: -10px;
+ }
+#clock{
+     color: #ff79B6;
+      font-size: 5em;
+      position: relative;
+      bottom: 200px;
+      left: -10px;
+      visibility: hidden;
+
+
+                }
+          p{
+            font-family: sans-serif;
+            position: absolute;
+            bottom: 0px;
+            top: 1px;
+          }
+          .gjd{
+            right: 100px;
+            color: #0ff9B6;
+
+          }
+          .procrastinate{
+            left: 100px;
+            color: #ff79B6;
+            visibility: hidden;
+          }
+          #switch:checked + label{
+            background: #ff79B6;
+            box-shadow: inset 0 0 5px 1px rgba(0,0,0,.2);
+          }
+          #switch:checked + label:after{
+            left: 40px;
+            transition: left .5s linear;
+          }
+          #switch:checked + label #job, #switch:checked + label .gjd {
+            visibility: hidden;
+          }
+          #switch:checked + label #clock, #switch:checked + label .procrastinate{
+            visibility: visible;
+          }
+      @media screen and (max-width: 800px), screen and (max-height: 600px)  {
+        label{
+          position: absolute;
+          top: 120px;
+        }
+
+        .container{
+          padding: 30px;
+        }
+        .center{
+          margin: 0 auto;
+          width: 100px;
+          height: 100px;
+        }
+      }
 
 .containers {
   width: 520px;
