@@ -66,12 +66,12 @@ p {
   top: 1px;
 }
 
-/*          .gjd{
-            right: 100px;
-            color: #0ff9B6;
+.gjd {
+  right: 100px;
+  color: #0ff9B6;
+}
 
-          }
-          .procrastinate{
+/*          .procrastinate{
             left: 100px;
             color: #ff79B6;
             visibility: hidden;
