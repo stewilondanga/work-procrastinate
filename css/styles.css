@@ -87,10 +87,11 @@ p {
   transition: left .5s linear;
 }
 
-/*          #switch:checked + label #job, #switch:checked + label .gjd {
-            visibility: hidden;
-          }
-          #switch:checked + label #clock, #switch:checked + label .procrastinate{
+#switch:checked+label #job, #switch:checked+label .gjd {
+  visibility: hidden;
+}
+
+/*          #switch:checked + label #clock, #switch:checked + label .procrastinate{
             visibility: visible;
           }
       @media screen and (max-width: 800px), screen and (max-height: 600px)  {
