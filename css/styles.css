@@ -82,11 +82,12 @@ p {
   box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, .2);
 }
 
-/*          #switch:checked + label:after{
-            left: 40px;
-            transition: left .5s linear;
-          }
-          #switch:checked + label #job, #switch:checked + label .gjd {
+#switch:checked+label:after {
+  left: 40px;
+  transition: left .5s linear;
+}
+
+/*          #switch:checked + label #job, #switch:checked + label .gjd {
             visibility: hidden;
           }
           #switch:checked + label #clock, #switch:checked + label .procrastinate{
