@@ -59,13 +59,14 @@ label:after {
   visibility: hidden;
 }
 
-/*          p{
-            font-family: sans-serif;
-            position: absolute;
-            bottom: 0px;
-            top: 1px;
-          }
-          .gjd{
+p {
+  font-family: sans-serif;
+  position: absolute;
+  bottom: 0px;
+  top: 1px;
+}
+
+/*          .gjd{
             right: 100px;
             color: #0ff9B6;
 
