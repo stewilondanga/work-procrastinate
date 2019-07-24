@@ -50,17 +50,16 @@ label:after {
   left: -10px;
 }
 
-/*#clock{
-     color: #ff79B6;
-      font-size: 5em;
-      position: relative;
-      bottom: 200px;
-      left: -10px;
-      visibility: hidden;
+#clock {
+  color: #ff79B6;
+  font-size: 5em;
+  position: relative;
+  bottom: 200px;
+  left: -10px;
+  visibility: hidden;
+}
 
-
-                }
-          p{
+/*          p{
             font-family: sans-serif;
             position: absolute;
             bottom: 0px;
